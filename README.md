@@ -39,7 +39,7 @@ Base Level Description on starting django project from scratch.
 
 # Test/Code
 - Open the folder in VScode, make sure to open the project1 only, and now our vscode will have folder listed like
-![vscode](./vc_code_01.png)
+![vscode](./01.png)
 - Now In VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)).
   Then select the Python: Select Interpreter command: 
   The command presents a list of available interpreters that VS Code can locate automatically
