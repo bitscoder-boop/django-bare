@@ -18,20 +18,35 @@ Base Level Description on starting django project from scratch.
 
 ## Cretae virtual environemnt
 - Create the virtual environment with the command virtualenv name-of-virtualenv, lets say its name is venv
+```sh
+virtualenv venv
+```
 - Now our empty folder project1 will have another folder inside it with the name venv
 
 ## Activating virtual environment
 - On Linux or Mac:
 -- use the command name-of-virtualev/bin/activate, our case source venv/bin/activate
+```sh
+source venv/bin/activate
+```
 - On Windows:
 -- use the command .\env_name\Scripts\activate, our case .\venv\Scripts\activate
+```sh
+.\venv\Scripts\activate
+```
 -- for windows we may need to use Activate.ps1 or Activate.bat
 
 # Django Project Structure.
 - Now our virtual environemnt is activated, lets install django with pip install django.
+```sh
+pip install django
+```
 
 # Create DJango Project
 - To create django project use the command django-admin startproject name-of-django-project, lets say its rumpum for our case.
+```sh
+django-admin startproject rumpum
+```
 - Now we will have a another folder beside our venv  folder with the name rumpum.
 
 # Till Now
@@ -43,7 +58,9 @@ Base Level Description on starting django project from scratch.
 - Now In VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)).
   Then select the Python: Select Interpreter command: 
   The command presents a list of available interpreters that VS Code can locate automatically
+  ![VsCode Command Palette](https://code.visualstudio.com/assets/docs/python/shared/command-palette.png)
   From the list, select the virtual environment in your project folder that starts with ./.venv or .\.venv
+  ![VsCode Python Interpreter](https://code.visualstudio.com/assets/docs/python/shared/select-virtual-environment.png)
 - If the Terminal doesnot automatically opens with the virtualenvironamnet activated, what you can do is 
   Press Ctrl+Shift+` which creates a terminal and automatically activates the virtual environment by running its activation script.
 - Note: On Windows, if your default terminal type is PowerShell, you may see an error that it cannot run activate.ps1 because
@@ -58,45 +75,6 @@ Base Level Description on starting django project from scratch.
 
 
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
-## Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
 
 ```sh
 cd dillinger
