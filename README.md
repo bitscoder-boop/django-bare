@@ -1,9 +1,4 @@
 # Django Begginer
-## _The Last Markdown Editor, Ever_
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Base Level Description on starting django project from scratch.
 
@@ -81,3 +76,22 @@ python manage.py runserver
   ![Django running](./running.png)
   127.0.0.1:8000 and you will see django is running succesfully.
   ![Django running](./browser.png)
+
+## Django App
+- In django we have apps and projects, lets proceed to create a app call polls.
+- To do so, stop the running django process in your vscode terminal by pressing Ctrl + C
+- And use the command python manage.py startapp app-name, app-name will be polls in our case.
+```sh
+python manage.py startapp polls
+```
+- After that, in our vscode, we will have another folder called polls inside our rumpum directory.
+- Our overall folder structure in vscode will look something like this.
+  ![Overall](./overall.png)
+
+
+# things to remember
+- activate virtual environamnet before running the django application.
+- working directory, this is the folder where manage.py file will be.
+
+# command to remember
+- python manage.py runserver
